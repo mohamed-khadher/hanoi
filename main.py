@@ -1,5 +1,5 @@
 import pygame, sys
-import pygame_gui, colorsys
+import pygame_gui
 from pygame.locals import *
 import random
 
