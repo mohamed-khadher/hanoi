@@ -243,6 +243,7 @@ def removeOneDisk():
 	minMoves.set_text('Minimal number of moves (2^diskcount -1) : ' + str(2**(diskCount-1) - 1))
 
 #solve using recursive method
+
 def solve(diskCount, towerA, towerB, towerC):
 	if(slow):
 		if(redraw(animationDelay)):
@@ -294,7 +295,7 @@ def slower():
 	animationDelay += 0.1
 	animationDelayLabel.set_text('Animation Delay (secs) : ' + str(round(animationDelay,1)) + 's')
 
-#resets disks into position and moves counter into full standby
+#resets disks into position and moves counter to 0
 
 def reset():
 	global moves,movesTextSurface
